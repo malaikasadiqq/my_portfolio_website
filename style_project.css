@@ -1,0 +1,188 @@
+body {
+    background-color: rgb(206, 194, 184);
+    font-family: 'Raleway';
+}
+
+/* nav bar styling  */
+.navbar {
+    background-color: rgb(154, 138, 124);
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: rgb(58, 43, 31);
+}
+
+/* main content styling  */
+
+h2 {
+    font-size: xx-large;
+    font-weight: 700;
+    color: (58, 43, 31);
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: rgb(58, 43, 31);
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding: 15px;
+   
+}
+
+.card-image-card {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(217, 116, 61); 
+    border: 2px solid rgb(217, 116, 61);
+    background-color: #fff;
+}
+
+.card-image-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px 5px 0 0;
+    transition: transform 0.3s ease;
+}
+
+.card-image-card:hover img {
+    transform: scale(1.1);
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-text h5,
+.card-text p {
+    margin: 0;
+    color: rgb(58, 43, 31);
+}
+
+.card-text h5{
+    font-size: large;
+    font-weight: 700;
+}
+
+.card-text p {
+    font-weight: normal;
+    font-size: small;
+}
+
+
+.btn-primary {
+    position: sticky;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(199, 98, 43);
+    border: 3px solid rgb(154, 76, 33);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: rgb(217, 116, 61);
+    border-color: rgb(217, 116, 61);
+}
+
+/* footer styling  */
+.portfolio-footer {
+    background-color: rgb(58, 43, 31);
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio-info,
+.portfolio-links,
+.social-links {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.portfolio-info h3,
+.portfolio-links h3,
+.social-links h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.portfolio-links ul,
+.social-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-links ul li,
+.social-links ul li {
+    margin-bottom: 5px;
+}
+
+.portfolio-links ul li a,
+.social-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.portfolio-links ul li a:hover,
+.social-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info p:first-child {
+    margin-top: 0;
+}
+
+.contact-info p:last-child {
+    margin-bottom: 0;
+}

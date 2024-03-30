@@ -1,0 +1,123 @@
+body {
+    background-color:  rgb(206, 194, 184); 
+     /* rgb(232, 227, 222); */
+    font-family: 'Raleway';
+}
+
+ /* nav bar styling  */
+ .navbar {
+    background-color: rgb(154, 138, 124); 
+    display: flex;
+    justify-content: space-around;
+  }
+
+.nav-link{
+    color: white ;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color:rgb(58,43,31); 
+}
+
+/* image */
+.custom-img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid rgb(217, 116, 61);
+    box-shadow: 0 2px 5px rgb(217, 116, 61); 
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+/* text content */
+.main-text h2 {
+    margin-bottom: 20px; 
+    margin-top: 20%;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.main-text p {
+    color:rgb(58,43,31); 
+    text-align: start;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    /* Adjust image size for smaller screens */
+    .custom-img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* footer styling  */
+.portfolio-footer {
+    background-color:  rgb(58,43,31); 
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .portfolio-info,
+  .portfolio-links,
+  .social-links {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .portfolio-info h3,
+  .portfolio-links h3,
+  .social-links h3 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-links ul,
+  .social-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .portfolio-links ul li,
+  .social-links ul li {
+    margin-bottom: 5px;
+  }
+  
+  .portfolio-links ul li a,
+  .social-links ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .portfolio-links ul li a:hover,
+  .social-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .contact-info p:first-child {
+    margin-top: 0;
+  }
+  
+  .contact-info p:last-child {
+    margin-bottom: 0;
+  }
